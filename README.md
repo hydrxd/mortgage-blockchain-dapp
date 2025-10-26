@@ -53,25 +53,21 @@ cd mortgage-blockchain
 2. Install dependencies:
 
 ```bash
-npm install
+npm install -g ganache truffle
 ```
 
-3. Compile and migrate the smart contract to Ganache:
+3. Compile the contract and run Ganache:
 
 ```bash
-truffle compile
-truffle migrate --network development --reset
+npm run dev
 ```
-
-> Ensure Ganache is running and the network ID matches your Truffle config.
-
-4. Update `src/web3.js` (or equivalent) if your contract address changes after migration.
 
 ---
 
 ## Running the Frontend
 
 ```bash
+cd frontend
 npm run dev
 ```
 
