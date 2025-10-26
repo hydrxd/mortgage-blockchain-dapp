@@ -1,0 +1,12 @@
+{
+    "name": "mortgage-blockchain",
+    "version": "1.0.0",
+    "description": "Blockchain-based mortgage smart contract system using Truffle, Ganache, and React frontend.",
+    "scripts": {
+        "ganache": "ganache --hardfork shanghai --mnemonic=\"candy maple cake sugar pudding cream honey rich smooth crumble sweet treat\" --port 8545 --chain.chainId 1337",
+        "compile": "truffle compile --all",
+        "migrate": "truffle migrate --network development --reset",
+        "dev": "start cmd /k \"npm run ganache\" && timeout 3 && npm run compile && npm run migrate"
+    },
+    "dependencies": {}
+}
