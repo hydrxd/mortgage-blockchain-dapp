@@ -72,7 +72,8 @@ Before running the frontend, you need to connect your MetaMask wallet to the Gan
 2. Copy the **private key** of an account from Ganache.
 3. Paste the private key in MetaMask and give it a name.
 4. Make sure MetaMask is connected to the **Ganache local network** (URL `http://127.0.0.1:8545` with Chain ID `1337`).
-5. You should now see the imported account with its Ether balance from Ganache.
+5. Set symbol to `ETH`.
+6. You should now see the imported account with its Ether balance from Ganache.
 
 ---
 
