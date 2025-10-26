@@ -1,6 +1,6 @@
 # Blockchain Mortgage DApp
 
-A simple decentralized mortgage application built using **Ethereum, Solidity, Truffle, and React** with **Tailwind CSS**.  
+A simple decentralized mortgage application built using **Metamask, Solidity, Truffle, and React**.  
 This DApp allows users to create mortgages, approve them, and make payments, all directly via **MetaMask** without a backend server.
 
 ---
@@ -10,10 +10,9 @@ This DApp allows users to create mortgages, approve them, and make payments, all
 - Connect with MetaMask and display your wallet address.  
 - Create a new mortgage.  
 - View all existing mortgages in a table.  
-- Approve mortgages (bank/admin role).  
+- Approve mortgages (bank/admin role) -- As a POC - Currently Anyone can.  
 - Make payments only for approved mortgages.  
 - Tab-based interface for a clean UI.  
-- Fully styled with **Tailwind CSS**.
 
 ---
 
@@ -38,7 +37,7 @@ mortgage-blockchain/
 - [npm](https://www.npmjs.com/)  
 - [MetaMask](https://metamask.io/) browser extension  
 - [Truffle](https://www.trufflesuite.com/truffle) (`npm install -g truffle`)  
-- [Ganache](https://www.trufflesuite.com/ganache) for local blockchain development  
+- [Ganache](https://www.trufflesuite.com/ganache) for local blockchain development (`npm install -g truffle`)  
 
 ---
 
@@ -94,8 +93,7 @@ All transactions are directly signed via **MetaMask** and executed on the blockc
 ---
 
 ## Notes
-
-- This is a **POC / learning project**, not production-ready.  
+ 
 - No backend server is required; the frontend interacts directly with the smart contract.  
 - Make sure to use the correct **network in MetaMask** (Ganache local network).  
 
