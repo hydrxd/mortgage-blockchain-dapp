@@ -13,10 +13,16 @@ export const initWeb3 = async () => {
 
         const networkId = await web3.eth.net.getId();
         const deployedNetwork = Mortgage.networks[networkId];
+        
+        // Add this check:
+        if (!deployedNetwork) {
+            throw new Error(`Contract not deployed on network ${networkId}. Please switch to the correct network (e.g., Ganache, Sepolia, etc.)`);
+        }
+        
         mortgage = new web3.eth.Contract(Mortgage.abi, deployedNetwork.address);
         return { web3, accounts, mortgage };
     } else {
-        alert("MetaMask not detected!");
+        throw new Error("MetaMask not detected!");
     }
 };
 
