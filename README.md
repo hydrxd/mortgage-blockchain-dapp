@@ -111,7 +111,7 @@ All transactions are directly signed via **MetaMask** and executed on the blockc
 
 ## Screenshots
 
-![alt text](http://url/to/img.png)
+![gnc](https://github.com/lohithgsk/mortgage-blockchain-dapp/blob/main/gnc.png)
 
 ## Notes
 
