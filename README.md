@@ -109,6 +109,10 @@ All transactions are directly signed via **MetaMask** and executed on the blockc
 
 ---
 
+## Screenshots
+
+![alt text](http://url/to/img.png)
+
 ## Notes
 
 * No backend server is required; the frontend interacts directly with the smart contract.
