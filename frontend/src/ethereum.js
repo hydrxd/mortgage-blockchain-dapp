@@ -11,7 +11,7 @@ export const initWeb3 = async () => {
         await window.ethereum.request({ method: "eth_requestAccounts" });
         accounts = await web3.eth.getAccounts();
 
-        const networkId = await web3.eth.net.getId();
+        const networkId = 5777 //await web3.eth.net.getId();
         const deployedNetwork = Mortgage.networks[networkId];
         
         // Add this check:
