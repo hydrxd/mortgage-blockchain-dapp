@@ -11,7 +11,7 @@ export const initWeb3 = async () => {
         await window.ethereum.request({ method: "eth_requestAccounts" });
         accounts = await web3.eth.getAccounts();
 
-        const networkId = 5777 //await web3.eth.net.getId();
+        const networkId = await web3.eth.net.getId(); //add 5777 if ganache gui is used
         const deployedNetwork = Mortgage.networks[networkId];
         
         // Add this check:
