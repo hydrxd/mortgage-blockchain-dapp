@@ -109,6 +109,10 @@ All transactions are directly signed via **MetaMask** and executed on the blockc
 
 ---
 
+## Screenshots
+
+![gnc](https://github.com/lohithgsk/mortgage-blockchain-dapp/blob/main/gnc.png)
+
 ## Notes
 
 * No backend server is required; the frontend interacts directly with the smart contract.

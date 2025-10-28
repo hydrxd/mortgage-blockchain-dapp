@@ -50,13 +50,13 @@ module.exports = {
   networks: {
     development: {
       host: "127.0.0.1",
-      port: 8545,
-      network_id: "*",
+      port: 8545, //7545 for ganache gui
+      network_id: "*", //5777 for ganache gui
     },
   },
   compilers: {
     solc: {
-      version: "0.8.20",
+      version: "0.8.13", //0.8.20
     },
   },
 };
